@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gagan Sharma — Senior Software Engineer</title>
+  <style>
+    * { box-sizing: border-box; }
+    @page { size: A4; margin: 0; }
+    body {
+      margin: 0;
+      background: #eceff1;
+      color: #17212b;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 9.4pt;
+      line-height: 1.28;
+    }
+    .page {
+      position: relative;
+      width: 210mm;
+      height: 297mm;
+      margin: 8mm auto;
+      padding: 13mm 15mm 12mm;
+      overflow: hidden;
+      background: #fff;
+      page-break-after: always;
+    }
+    .page:last-child { page-break-after: auto; }
+    header {
+      border-bottom: 2px solid #7b1fa2;
+      padding-bottom: 5mm;
+      margin-bottom: 4mm;
+    }
+    h1 {
+      margin: 0;
+      color: #1c2b39;
+      font-size: 25pt;
+      line-height: 1;
+      letter-spacing: .2px;
+    }
+    .target {
+      margin-top: 2mm;
+      color: #7b1fa2;
+      font-size: 12pt;
+      font-weight: 700;
+    }
+    .contact {
+      margin-top: 2.5mm;
+      color: #425466;
+      font-size: 9pt;
+    }
+    h2 {
+      margin: 4mm 0 2mm;
+      padding-bottom: 1mm;
+      border-bottom: 1px solid #c8d1d9;
+      color: #7b1fa2;
+      font-size: 11pt;
+      line-height: 1.15;
+      letter-spacing: .7px;
+      text-transform: uppercase;
+    }
+    p { margin: 0 0 1.8mm; }
+    ul {
+      margin: 1.3mm 0 2mm 4.6mm;
+      padding: 0;
+    }
+    li {
+      margin: 0 0 1.15mm;
+      padding-left: 1mm;
+    }
+    .summary { margin-bottom: 1mm; }
+    .skills-grid {
+      display: grid;
+      grid-template-columns: 34mm 1fr;
+      gap: 1.2mm 3mm;
+    }
+    .skills-grid strong { color: #24394d; }
+    .role { margin-top: 3mm; }
+    .role-head {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 8mm;
+      margin-bottom: .7mm;
+    }
+    .role-title {
+      color: #1c2b39;
+      font-size: 10.4pt;
+      font-weight: 700;
+    }
+    .role-title span {
+      color: #425466;
+      font-weight: 400;
+    }
+    .dates {
+      flex: 0 0 auto;
+      color: #425466;
+      font-size: 8.8pt;
+      font-weight: 700;
+    }
+    .context {
+      margin-bottom: 1.4mm;
+      color: #5b6770;
+      font-size: 8.6pt;
+      font-style: italic;
+    }
+    .compact li { margin-bottom: .9mm; }
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 5mm;
+    }
+    .callout {
+      margin-top: 3mm;
+      padding: 3mm 3.5mm;
+      border-left: 3px solid #7b1fa2;
+      background: #f7f2f9;
+    }
+    .footer {
+      position: absolute;
+      right: 15mm;
+      bottom: 6mm;
+      color: #7b8791;
+      font-size: 8pt;
+    }
+    @media print {
+      body { background: #fff; }
+      .page { margin: 0; }
+    }
+  </style>
+</head>
+<body>
+  <section class="page">
+    <header>
+      <h1>Gagan Sharma</h1>
+      <div class="target">Senior Software Engineer | Java &amp; Spring Boot</div>
+      <div class="contact">Dublin, Ireland &nbsp;•&nbsp; +353 89 989 1655 &nbsp;•&nbsp; gagan09356@gmail.com</div>
+    </header>
+
+    <h2>Professional Summary</h2>
+    <ul class="summary">
+      <li>Software engineer with nearly 6 years of experience developing and modernising Java 8/11 and Spring Boot applications across government, capital-markets, and telecommunications environments.</li>
+      <li>Hands-on experience building event-driven microservices with Kafka, real-time WebSocket services, Redis caching, relational database migrations, and automated delivery pipelines.</li>
+      <li>Experienced in full software delivery: requirements, architecture collaboration, implementation, testing, production troubleshooting, code review, Agile ceremonies, and mentoring junior developers.</li>
+    </ul>
+
+    <h2>Technical Skills</h2>
+    <div class="skills-grid">
+      <strong>Backend</strong><span>Java 8/11, J2EE, Spring Boot, Spring Core, Spring Security, JSP/Servlets, REST services, microservices</span>
+      <strong>Messaging &amp; data</strong><span>Apache Kafka, WebSockets, Redis, PostgreSQL, MS SQL Server, MySQL, Oracle, Ingres, SQL, Hive</span>
+      <strong>Frontend</strong><span>JavaScript, HTML</span>
+      <strong>Testing &amp; quality</strong><span>JUnit, Postman, SonarQube, code reviews</span>
+      <strong>Delivery &amp; platforms</strong><span>CI/CD, Jenkins, Harness, GitHub Actions, Git, GitHub, Maven, Gradle, OpenShift, Linux/Unix</span>
+      <strong>Operations &amp; Agile</strong><span>Splunk, Elastic APM, Grafana, Jira, Confluence, Scrum, production debugging</span>
+    </div>
+
+    <h2>Professional Experience</h2>
+    <div class="role">
+      <div class="role-head">
+        <div class="role-title">Senior Developer <span>— Accenture, Revenue Commissioners</span></div>
+        <div class="dates">Apr 2026–Present | Dublin</div>
+      </div>
+      <div class="context">Modernisation of applications supporting Ireland’s national tax and customs administration.</div>
+      <ul class="compact">
+        <li>Modernise legacy Java JSP/Servlet and C-based applications into maintainable Spring Boot microservice and web applications.</li>
+        <li>Develop and enhance Java/Spring Boot backend services while integrating migrated components with existing systems.</li>
+        <li>Migrate Ingres databases to PostgreSQL through schema conversion, data mapping, query optimisation, and compatibility analysis.</li>
+        <li>Re-platform Talend Studio and Linux shell batch jobs, restructuring schedules, dependencies, and error handling for the target architecture.</li>
+        <li>Analyse legacy code and dependencies to define migration strategies that support stable system transitions.</li>
+        <li>Partner with cross-functional teams to validate migrated functionality through testing, debugging, and application-stability checks.</li>
+      </ul>
+    </div>
+
+    <div class="role">
+      <div class="role-head">
+        <div class="role-title">Software Development Senior Analyst <span>— Accenture, Wells Fargo</span></div>
+        <div class="dates">May 2024–Mar 2026</div>
+      </div>
+      <div class="context">New Issue Trade Execution platform for institutional Debt Capital Markets workflows.</div>
+      <ul class="compact">
+        <li>Developed Spring Boot services supporting trade-data structuring, tranche management, order blotters, and trade-lifecycle workflows.</li>
+        <li>Designed Kafka-based asynchronous messaging and event processing for high-throughput, real-time trade data.</li>
+        <li>Integrated WebSockets to stream trade updates and improve responsiveness for monitoring users.</li>
+        <li>Implemented Redis caching to reduce database load and improve service response times.</li>
+        <li>Investigated production issues with Splunk and Elastic APM, tracing failures through logs and application telemetry.</li>
+        <li>Built JUnit tests and used SonarQube to strengthen reliability, code quality, and security compliance.</li>
+        <li>Automated deployments through Harness and GitHub Actions CI/CD pipelines, reducing manual release activity.</li>
+      </ul>
+    </div>
+    <div class="footer">Gagan Sharma | Page 1 of 2</div>
+  </section>
+
+  <section class="page">
+    <header>
+      <h1>Gagan Sharma</h1>
+      <div class="target">Senior Software Engineer | Java &amp; Spring Boot</div>
+      <div class="contact">Dublin, Ireland &nbsp;•&nbsp; +353 89 989 1655 &nbsp;•&nbsp; gagan09356@gmail.com</div>
+    </header>
+
+    <h2>Professional Experience — Continued</h2>
+    <div class="role">
+      <div class="role-head">
+        <div class="role-title">Full Stack Java Developer <span>— Tata Consultancy Services, Verizon</span></div>
+        <div class="dates">Nov 2020–Apr 2024</div>
+      </div>
+      <div class="context">Web-based Fiber Inventory Management System used to manage fiber connections and inventory data.</div>
+      <ul>
+        <li>Designed, developed, and maintained a web application using Java, Spring Boot, and frontend technologies.</li>
+        <li>Worked with cross-functional stakeholders to gather requirements, shape system architecture, and deliver application features.</li>
+        <li>Tested, maintained, and recommended software improvements to strengthen functionality and performance.</li>
+        <li>Conducted code reviews and mentored junior developers, improving code quality and team knowledge sharing.</li>
+        <li>Identified automation opportunities and used Git-based workflows to streamline software development.</li>
+        <li>Participated in Agile sprint planning and retrospectives and maintained technical documentation for onboarding and knowledge transfer.</li>
+      </ul>
+    </div>
+
+    <h2>Selected Engineering Strengths</h2>
+    <div class="two-col">
+      <div>
+        <p><strong>Microservices &amp; integration</strong></p>
+        <p>Java/Spring Boot service development, asynchronous Kafka messaging, legacy integration, REST services, and event-driven design.</p>
+      </div>
+      <div>
+        <p><strong>Reliability &amp; troubleshooting</strong></p>
+        <p>JUnit testing, SonarQube analysis, Splunk and Elastic APM diagnostics, debugging, and application-stability validation.</p>
+      </div>
+      <div>
+        <p><strong>Modernisation &amp; data</strong></p>
+        <p>Monolith-to-microservice transformation, Ingres-to-PostgreSQL migration, batch-job re-platforming, SQL optimisation, and Redis caching.</p>
+      </div>
+      <div>
+        <p><strong>Software delivery</strong></p>
+        <p>CI/CD with Harness, GitHub Actions, and Jenkins; Git workflows; Agile planning and retrospectives; technical documentation.</p>
+      </div>
+    </div>
+
+    <h2>Education</h2>
+    <div class="role-head">
+      <div class="role-title">Lingaya’s Vidyapeeth</div>
+      <div class="dates">Jul 2015–Jul 2019</div>
+    </div>
+
+    <h2>Additional Technologies</h2>
+    <p>Data structures and algorithms • Design patterns • Maven • Gradle • Jira • Confluence • Grafana • OpenShift • Talend Studio • Linux shell scripting</p>
+
+    <div class="callout">
+      <strong>Domain experience:</strong> Irish government tax and customs systems; Debt Capital Markets and trade banking; telecommunications fiber inventory.
+    </div>
+    <div class="footer">Gagan Sharma | Page 2 of 2</div>
+  </section>
+</body>
+</html>
