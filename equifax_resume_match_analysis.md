@@ -6,7 +6,7 @@ Source: [Equifax job J00178248](https://careers.equifax.com/en/jobs/j00178248/se
 
 This is currently a **stretch application**, despite a strong match on Java, Spring Boot, microservices, software-engineering tenure, Dublin location, databases, Agile, and production troubleshooting.
 
-The posting treats several technologies as minimum requirements, not preferences: 5+ years of cloud, cloud-native development, GCP SDKs, GKE/Kubernetes, Jenkins pipelines, Helm, and Terraform. The supplied resume does not establish that experience. It also does not show AI-assisted development, TypeScript, CSS, a named bachelor’s degree, or a cloud certification.
+The posting treats several technologies as minimum requirements, not preferences: 5+ years of cloud, cloud-native development, GCP SDKs, GKE/Kubernetes, Jenkins pipelines, Helm, and Terraform. The supplied resume does not establish that experience. The candidate has subsequently confirmed using GitHub Copilot at Wells Fargo and Continue.dev and Kiro at Revenue Commissioners; the tailored resume now includes this AI-assisted development experience. TypeScript, CSS, a named bachelor’s degree, and a cloud certification remain unsupported.
 
 There is no defensible way to calculate a true shortlist probability without Equifax applicant and hiring data. As a directional assessment:
 
@@ -24,7 +24,7 @@ These ranges are judgement estimates, not hiring statistics. A recruiter may rej
 | 5+ years software engineering | Nov 2020–present | Strong |
 | 5+ years Java and Spring Boot | Used across TCS and Accenture roles | Strong |
 | TypeScript/JavaScript, HTML, CSS | JavaScript and HTML listed; no TypeScript or CSS evidence | Partial |
-| AI tools: Copilot, Gemini, Claude, MCP, etc. | Not mentioned | Gap |
+| AI tools: Copilot, Gemini, Claude, MCP, etc. | Candidate confirmed GitHub Copilot, Continue.dev, and Kiro usage | Match—now added to tailored resume |
 | 5+ years GCP, AWS, or Azure | No cloud provider shown | Major gap |
 | 5+ years cloud-native solutions | Microservices shown; cloud-native deployment not established | Major gap |
 | GCP SDKs and GKE/Kubernetes | Not mentioned | Major gap |
